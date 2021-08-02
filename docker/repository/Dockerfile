@@ -1,0 +1,4 @@
+FROM postgres:alpine
+WORKDIR /tmp
+ENV POSTGRES_PASSWORD=root
+ENV POSTGRES_USER=root
